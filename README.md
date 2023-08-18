@@ -15,6 +15,9 @@ Se um dos jogadores se desconectar, a conexão é perdida.</br>
 ### Estado client
 ![image](https://github.com/raissa-coelho/Checkers-P/assets/72715305/0b204601-b321-48e1-be4e-b4662e31f14d)
 
+### Estado server
+![image](https://github.com/raissa-coelho/Checkers-P/assets/72715305/847b0261-0f49-4747-8a20-aac66f5d470b)
+
 ### Mensagens servidor e cliente
 
 | Mensagens cliente| |
