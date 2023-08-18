@@ -9,8 +9,7 @@ import checkers
 
 
 def start_server():
-	#HOST = "127.0.0.1"
-	HOST = "192.168.0.9" # server's ip
+	HOST = "server's ip"
 	PORT = 5000  # same port as client
 	print("Conectando servidor...")
 	server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
