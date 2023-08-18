@@ -6,8 +6,7 @@ import numpy as np
 import checkers
 
 def connect_client():
-	#HOST = "127.0.0.1"
-	HOST = "192.168.0.9" # client's ip
+	HOST = "client's ip"
 	PORT = 5000 # same port as server
 	client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	print("Conectando cliente ao servidor ...")
@@ -25,8 +24,8 @@ def connect_client():
 			if from_server == "welcome1":
 				print("Welcome player 1")
 				print("|               Checkers                |")
-				print("| Peças brancas são em letra maiuscula. |")
-				print("| Peças pretas são em letra minuscula.  |")
+				print("| Peças brancas são em W. |")
+				print("| Peças pretas são em B.  |")
 				print("| Você é a branca.                      |")
 				print("| Digite: desistir para recomeçar jogo  |")
 				ready = 'ready'
@@ -34,8 +33,8 @@ def connect_client():
 			elif from_server == "welcome2":
 				print("Welcome player 2")
 				print("|              Checkers                 |")
-				print("| Peças brancas são em letra maiuscula. |")
-				print("| Peças pretas são em letra minuscula.  |")
+				print("| Peças brancas são em W. |")
+				print("| Peças pretas são em B.  |")
 				print("| Você é a preta.                       |")
 				print("| Digite: desistir para recomeçar jogo  |")
 				ready = 'ready'
