@@ -12,6 +12,9 @@ O jogo só pode começar se dois jogadores se conectarem ao servidor.</br>
 Não é admitido múltiplos jogos.</br>
 Se um dos jogadores se desconectar, a conexão é perdida.</br>
 
+### Estado client
+![image](https://github.com/raissa-coelho/Checkers-P/assets/72715305/0b204601-b321-48e1-be4e-b4662e31f14d)
+
 ### Mensagens servidor e cliente
 
 | Mensagens cliente| |
