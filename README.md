@@ -6,9 +6,11 @@ Fazer um jogo de damas entre dois jogadores em dois computadores diferentes ou/e
 
 ### O protocolo
 Um dos jogadores inicia o `server.py` e se torna o host da partida.</br>
-Um segundo jogador, que pode ser tanto da máquina do jogador-host ou outra máquina, inicia o `client.py` e estabelece uma conexão.</br> 
-O jogador-host inicia `client.py` e assim a conexão com servidor é estabelecida e a partida começa.</br>
+Um segundo jogador, que pode ser tanto da máquina do jogador-host ou outra máquina, inicia o `client.py` e estabelece uma conexão ao servidor.</br> 
+O jogador-host inicia `client.py` e assim a conexão com o servidor é estabelecida e a partida começa.</br>
 O jogo só pode começar se dois jogadores se conectarem ao servidor.</br>
+Não é admitido múltiplos jogos.</br>
+Se um dos jogadores se desconectar, a conexão é perdida.</br>
 
 ### Mensagens servidor e cliente
 
